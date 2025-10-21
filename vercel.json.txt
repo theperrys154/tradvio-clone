@@ -1,0 +1,6 @@
+{
+  "buildCommand": "NODE_OPTIONS='--experimental-vm-modules' npm run build",
+  "engines": {
+    "node": "20.x"
+  }
+}
