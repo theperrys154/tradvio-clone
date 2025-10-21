@@ -4,10 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "prebuild": "chmod +x ./node_modules/.bin/vite || true",
-    "build": "vite build",
-    "preview": "vite preview"
+   "dev": "vite",
+  "build": "bash ./vercel-build.sh",
+  "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.268.0",
